@@ -7,7 +7,10 @@ Short Python 3 script to remove tracking parameters from URLs.
 ```sh
 git clone https://github.com/remino/purifyurl
 cd purifyurl
+python3 -m venv env
+source env/bin/activate
 pip install -r requirements.txt
+deactivate
 ```
 
 ## Usage
